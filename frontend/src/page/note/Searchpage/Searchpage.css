@@ -1,0 +1,136 @@
+.search-bg{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    position: relative;
+    overflow-y: hidden;
+ 
+}
+
+.search-nav{
+    width: 100%;
+    top: 0%;    
+    position: absolute;
+  
+}
+
+.show-search-content{
+    margin-top: 9%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    background-color: #121212;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 95%;
+
+}
+
+.search-card{
+    flex-shrink: 0;
+    position: relative;
+
+}
+.bt-area1{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#121212;
+    top: 80%;
+    left: 40%;
+}
+
+
+.bt-area1 .scroll-button {
+    background-color: #434040bb;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: rgb(236, 230, 230);
+    width: 20%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Noto Sans Thai', sans-serif;
+
+
+}
+
+.bt-area1 .scroll-button:hover {
+    color: #F5CE00; /* สีที่เมื่อ hover ปุ่ม */
+    background-color: rgba(85, 85, 85, 0.776);
+}
+
+.bt-area1 .scroll-button2 {
+    background-color: #434040bb;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: rgb(236, 230, 230);
+    width: 20%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Noto Sans Thai', sans-serif;
+
+
+}
+
+.bt-area1 .scroll-button2:hover {
+    color: #F5CE00; /* สีที่เมื่อ hover ปุ่ม */
+    background-color: rgba(85, 85, 85, 0.776);
+}
+
+.empty{
+    position:absolute;
+    justify-self: center;
+    align-self: center;
+    left: 43%;
+    color: grey;
+}
+
+.search-box{
+    width: 30%;
+    height: 7%;
+    top: 12%;
+    left: 34%;
+    position: absolute;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    backdrop-filter: blur(12px) saturate(57%);
+    -webkit-backdrop-filter: blur(17px) saturate(57%);
+    background-color: rgba(169, 169, 169, 0.25);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(127, 125, 125, 0.3);
+    flex-shrink: 0;
+    z-index: 3;
+
+}
+
+.search-input{
+    width: 95%;
+    height: 70%;
+    border: none;
+    border-radius: 10px;
+    position:absolute;
+
+
+}

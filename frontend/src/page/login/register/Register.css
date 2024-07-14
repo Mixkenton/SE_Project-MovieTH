@@ -1,0 +1,139 @@
+.web-reg{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../asset/BG.png"); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		height: 0%;
+	}
+	100% {
+		height: 80%;
+	}
+}
+
+.body-reg{
+    position: absolute;
+    animation-name: fadeInOpacity;
+    animation-duration: 0.7s;
+    width: 50%;
+    height: 80%;
+    min-width: 800px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(12px) saturate(57%);
+    -webkit-backdrop-filter: blur(17px) saturate(57%);
+    background-color: rgba(169, 169, 169, 0.25);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(127, 125, 125, 0.3);
+}
+
+
+.body-reg-text{
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+    font-family: 'Mitr', sans-serif;
+}
+
+
+.reg-prefix{
+    position: absolute;
+    right: 79%;
+    top: 18%;
+    align-self: center;
+}
+
+.reg-firstname {
+    position: absolute;
+    right: 60%;
+    top: 29%;
+}
+
+.reg-lastname{
+    position: absolute;
+    top: 40%;
+    right: 60%;
+}
+
+.reg-username{
+    position: absolute;
+    top: 29%;
+    left: 60%;
+
+}
+
+.reg-email{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+
+.reg-address{
+    position: absolute;
+    right: 60%;
+    top: 62%;
+}
+
+.reg-gender{
+    position: absolute;
+    right: 82.5%;
+    top: 51%;
+}
+
+.reg-dob{
+position: absolute;
+top: 51%;
+right: 60%;
+}
+
+.reg-password{
+    position: absolute;
+    left: 60%;
+    top: 51%;
+}
+
+.reg-confirm{
+    position: absolute;
+    left: 60%;
+    top: 62%;
+}
+
+.reg-button{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+.reg-back-button{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(165, 165, 165, 0.6);
+}
+
+.line{
+    position: absolute;
+    top: 20%;
+    height: 50%;
+    width: 0.3%;
+    border-radius: 10px;
+    background-color: #ebe6e682;
+}

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.web-user {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-user-boxmain {
+    width: 60%;
+    margin: 2% auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid var(--yellow1, #F5CE00);
+    box-shadow: 0 4px 20px #F5CE00;
+    text-align: right;
+}
+
+.web-user-box {
+    width: 95%;
+    margin: 8px auto;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 1px 1px #575757;
+}
+
+@media screen and (max-width: 1368px) {
+
+    .web-user-boxmain {
+        width: 80%;
+        /* Adjust width for smaller screens */
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .web-user-boxmain {
+        width: 95%;
+        /* Adjust width for smaller screens */
+    }
+
+}
+
+.web-user-box {
+    width: 95%;
+    height: flex;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #ffffff;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 1px #575757;
+}
+
+.web-user-box-bar {
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    margin-top: 8px;
+    border-radius: 10px;
+    background: #333333;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 1px #F5CE00;
+}
+
+.user-text-header {
+    color: #000;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Mitr', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-text {
+    color: #000;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 32px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.user-line {
+    width: 92%;
+    height: 6px;
+    margin: auto;
+    margin-top: 10;
+    border-radius: 20px;
+    background: #F5CE00;
+}
+
+.user-button {
+    margin-right: 45px;
+}
+
+.back-button {
+
+    text-align: left;
+    margin-right: 40px;
+}
+
+.loading-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #F5CE00;
+    background-color: #000000;
+}

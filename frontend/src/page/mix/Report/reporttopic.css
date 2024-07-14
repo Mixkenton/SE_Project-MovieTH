@@ -1,0 +1,63 @@
+.report-mention{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  position: relative;
+
+  
+}
+.report-mention-box{
+  margin-top: 0.2vh;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  overflow-wrap: break-word;
+  height: auto; /* Set height to auto */
+  padding: 10px; /* Add padding for better appearance */
+  position: relative;
+  
+
+}
+.report-mention-text{
+  color: #393939;
+  font-size: 1.5vh;
+  padding-left: 2%;
+  text-align: left; /* Add this line to align text to the left */
+  margin-right: 2%;
+  width: 100%; /* Set width to 100% */
+  white-space: normal; /* Allow text wrapping */
+  
+  
+}
+@media (max-width: 700px) {
+  .report-mention-text {
+    font-size: 1.8vh; /* หรือปรับขนาดตามที่คุณต้องการ */
+  }
+}
+.report-mention-right{
+  display: flex;
+  
+}
+.report-mention-edit,
+.report-mention-delete {
+  
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: #f0f0f0; /* Neutral background color */
+  border: 1px solid #dcdcdc; /* Border for a formal look */
+  color: #333; /* Dark text color for contrast */
+  text-align: center;
+  font-size: 1.2vh;
+  height: 3vh;
+  width: 4vh;
+}
+
+.report-mention-edit:hover,
+.report-mention-delete:hover {
+  background-color: #e0e0e0; /* Change hover background color for subtle effect */
+}

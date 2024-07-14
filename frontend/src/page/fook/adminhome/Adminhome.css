@@ -1,0 +1,26 @@
+.admin-movie{
+    justify-content: center;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.admin-payment{
+    justify-content: center;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.admin-back{
+    justify-content: center;
+    display: flex;
+    margin-top: 25vh;
+}
+
+.admin-user{
+    width: 98%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+}

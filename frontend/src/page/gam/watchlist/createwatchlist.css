@@ -1,0 +1,183 @@
+:root {
+    --main-color: #E3DDB9;
+}
+
+* {
+    box-sizing: inherit;
+
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
+
+.bodycreatewatchlist {
+    min-width: none;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.99);
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containercreatewatchlist {
+    height: 500px;
+    width: 600px;
+    position: relative;
+    overflow: visible;
+    border-radius: 10px;
+    background: #000000;
+    box-shadow: 0px 0px 15px rgba(103, 103, 103, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcreatewatclist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createwatclisttext-style {
+    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 24px;
+}
+
+.search__input_createwatclist {
+    width: 80%;
+    padding: 12px 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 20px;
+    color: #E3DDB9;
+    border-radius: 50px;
+    border: 1.5px solid #ffffff;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    margin-top: 40px;
+}
+
+.search__input_createwatclist::placeholder {
+    color: rgba(87, 87, 86, 0.8);
+    letter-spacing: 1.5px;
+}
+
+.search__input_createwatclist:hover,
+.search__input_createwatclist:focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 1.5px solid #ffffff;
+    border-radius: 0;
+    background-position: 100% center;
+}
+
+.bottoncreatewatchlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.canclebottoncreate{
+    width: 100px;
+    height: 30px;
+    padding: 5px 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 1.5px solid #ffffff;
+    text-align: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.createbotton{
+    width: 100px;
+    height: 30px;
+    padding: 5px 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: bold;
+    background-color: #E3DDB9;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 50px;
+    border: 1.5px solid #E3DDB9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cantcreatethisname{
+    width: 500px;
+    height: 30px;
+    padding: 5px 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: bold;
+    background-color: #E3DDB9;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 50px;
+    border: 1.5px solid #E3DDB9;
+    text-align: center;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.selectcategorieswatchlist{
+    margin-top: 30px;
+    background-color: black;
+}
+
+.selectstyle{
+    width: 150px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    color: #E3DDB9;
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: #ffffff;
+    justify-content: flex-start;
+}
+
+.optionstyle{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 20px;
+    color: #E3DDB9;
+    background-color: #3d3d3d;
+    border-color: #ffffff;
+}
+
+.theme-bottons{
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: transparent;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.theme-buttons-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.theme-bottons:focus {
+    outline: 2px solid white;
+    transition: 0s;
+}  

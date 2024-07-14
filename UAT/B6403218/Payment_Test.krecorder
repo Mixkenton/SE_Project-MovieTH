@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Payment_Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Upload Slip unsuccess</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/payment<datalist><option>http://localhost:3000/payment</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/form/div/div/div[4]/button/span<datalist><option>xpath=//div[@id='root']/div/form/div/div/div[4]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='ถัดไป']/parent::*</option><option>xpath=//div[4]/button/span</option><option>css=div.button-next > button.ant-btn.css-dev-only-do-not-override-game6n.ant-btn-default > span</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/following::span[2]</option><option>xpath=//*/text()[normalize-space(.)='กรุณาอัพโหลดสลิป']/parent::*</option><option>xpath=//span[2]</option></datalist></td><td>กรุณาอัพโหลดสลิป</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Upload Slip success</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/payment<datalist><option>http://localhost:3000/payment</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=bill<datalist><option>xpath=//div[@id='root']/div/form/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/span/div/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='อัพโหลดสลิป'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/preceding::span[2]</option><option>xpath=//span/div/span</option><option>css=span.ant-upload</option><option>id=bill</option></datalist></td><td>C:\Users\66637\team03\backend\test\test.jpg</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/form/div/div/div[4]/button/span<datalist><option>xpath=//div[@id='root']/div/form/div/div/div[4]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='อัพโหลดสลิป'])[1]/following::span[4]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='ถัดไป']/parent::*</option><option>xpath=//div[4]/button/span</option><option>css=div.button-next > button.ant-btn.css-dev-only-do-not-override-game6n.ant-btn-default > span</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/following::span[2]</option><option>xpath=//*/text()[normalize-space(.)='อัพโหลดสำเร็จ']/parent::*</option><option>xpath=//span[2]</option></datalist></td><td>อัพโหลดสำเร็จ</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Admin Confirm Success</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/admin/payment<datalist><option>http://localhost:3000/admin/payment</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=span.anticon.anticon-check > svg > path<datalist><option>css=span.anticon.anticon-check > svg > path</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=Adminname<datalist><option>id=Adminname</option><option>xpath=//input[@id='Adminname']</option><option>xpath=//input</option><option>css=#Adminname</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=Adminname<datalist><option>id=Adminname</option><option>xpath=//input[@id='Adminname']</option><option>xpath=//input</option><option>css=#Adminname</option></datalist></td><td>mix</td></tr>
+<tr><td>click</td><td>id=Adminkey<datalist><option>id=Adminkey</option><option>xpath=//input[@id='Adminkey']</option><option>xpath=//div[2]/div/div/div/div/span/input</option><option>css=#Adminkey</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=Adminkey<datalist><option>id=Adminkey</option><option>xpath=//input[@id='Adminkey']</option><option>xpath=//div[2]/div/div/div/div/span/input</option><option>css=#Adminkey</option></datalist></td><td>6401111</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='โปรดลงชื่อผู้ให้อนุมัติ'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::button[2]</option><option>xpath=//*/text()[normalize-space(.)='ยืนยัน']/parent::*</option><option>xpath=//form/div/button</option><option>css=button.edit-ok-payment</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยืนยัน'])[1]/following::div[7]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยืนยัน'])[1]/following::div[7]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='โปรดลงชื่อผู้ให้อนุมัติ'])[1]/following::div[19]</option><option>xpath=//div[4]/div/div/div/div</option><option>css=div.ant-message-custom-content.ant-message-success</option></datalist></td><td>สำเร็จ</td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Admin Confirm unsuccess</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/admin/payment<datalist><option>http://localhost:3000/admin/payment</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>css=span.anticon.anticon-check > svg > path<datalist><option>css=span.anticon.anticon-check > svg > path</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=Adminname<datalist><option>id=Adminname</option><option>xpath=//input[@id='Adminname']</option><option>xpath=//input</option><option>css=#Adminname</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=Adminname<datalist><option>id=Adminname</option><option>xpath=//input[@id='Adminname']</option><option>xpath=//input</option><option>css=#Adminname</option></datalist></td><td>a</td></tr>
+<tr><td>click</td><td>id=Adminkey<datalist><option>id=Adminkey</option><option>xpath=//input[@id='Adminkey']</option><option>xpath=//div[2]/div/div/div/div/span/input</option><option>css=#Adminkey</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=Adminkey<datalist><option>id=Adminkey</option><option>xpath=//input[@id='Adminkey']</option><option>xpath=//div[2]/div/div/div/div/span/input</option><option>css=#Adminkey</option></datalist></td><td>abcd1234</td></tr>
+<tr><td>click</td><td>xpath=//button[@type='submit']<datalist><option>xpath=//button[@type='submit']</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='โปรดลงชื่อผู้ให้อนุมัติ'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::button[2]</option><option>xpath=//*/text()[normalize-space(.)='ยืนยัน']/parent::*</option><option>xpath=//form/div/button</option><option>css=button.edit-ok-payment</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยืนยัน'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยืนยัน'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='โปรดลงชื่อผู้ให้อนุมัติ'])[1]/following::span[8]</option><option>xpath=//*/text()[normalize-space(.)='กรุณากรอกข้อมูลให้ครบถ้วน']/parent::*</option><option>xpath=//span[2]</option></datalist></td><td>กรุณากรอกข้อมูลให้ครบถ้วน</td></tr>
+<tr><td></td><td><datalist></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+.Firstpage .bg{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("../../asset/movie03BG.png"); 
+    background-size: cover;  
+    background-position: center;
+}
+
+.button01{
+    position: relative;
+    display: inline-block;
+    top: 20%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    right: 1%;
+    
+
+}
+  
+  
+.button02{
+    position: relative;
+    display: inline-block;
+    margin-left: 10vh;
+    top: 20%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6)
+}
+

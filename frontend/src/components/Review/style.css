@@ -1,0 +1,13 @@
+.review-circle{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+
+}
+.review-circle-frame{
+    position: absolute;
+    top: 0px;
+}

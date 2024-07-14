@@ -1,0 +1,71 @@
+.headderwatchlistmovie {
+    position:fixed;
+    width: 100%;
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.list-sectionwatchlistmovie {
+    background: #000000;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listtext-stylewatchlistmovie {
+    color: white;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 50%;
+}
+
+.listtext-stylewatchlistmovie2 {
+  color: white;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.containerwatchlistmovie{
+  height: 250px;
+  width: 200px;
+  position: relative;
+  overflow: visible;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.footerwatchlistmovie {
+    position:fixed;
+    width: 100%;
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+.deletebuttonwatchlistmovie{
+  color: rgb(255, 255, 255);
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background: transparent;
+  border-color: transparent;
+}

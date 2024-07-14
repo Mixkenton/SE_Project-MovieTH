@@ -1,0 +1,145 @@
+
+.cate-nav{
+    width: 100%;
+    top: 0%;    
+    position: absolute;
+}
+
+.cate-text{
+    position: absolute;
+    color: aliceblue;
+    top: 15%;
+    left: 10%;
+}
+
+
+.cate-bg{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    position: relative;
+    overflow-y: hidden;
+ 
+}
+
+.show-cate-content{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #121212;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 95%;
+}
+
+.bt-area3{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#121212;
+    top: 80%;
+    left: 40%;
+}
+
+
+.bt-area3 .scroll-button {
+    background-color: #434040bb;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: rgb(236, 230, 230);
+    width: 20%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Noto Sans Thai', sans-serif;
+
+
+}
+
+.bt-area3 .scroll-button:hover {
+    color: #F5CE00; /* สีที่เมื่อ hover ปุ่ม */
+    background-color: rgba(85, 85, 85, 0.776);
+}
+
+.bt-area3 .scroll-button2 {
+    background-color: #434040bb;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: rgb(236, 230, 230);
+    width: 20%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    font-family: 'Noto Sans Thai', sans-serif;
+
+
+}
+
+.cate-card{
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.empty{
+    position:absolute;
+    justify-self: center;
+    align-self: center;
+    left: 43%;
+    color: grey;
+}
+
+.cateMenu-bg{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.cateMenu-nav{
+    width: 100%;
+    top: 0%;    
+    position: absolute;
+}
+
+.cateMenu-area{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #121212;
+    overflow-y:auto;
+    scroll-behavior: smooth;
+    height: 70%;
+    width: 85%;
+}
+
+.cateMenu-card{
+    position: relative;
+    flex-shrink: 5;
+
+}

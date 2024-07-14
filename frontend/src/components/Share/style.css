@@ -1,0 +1,13 @@
+.share-circle{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+
+}
+.share-circle-frame{
+    position: absolute;
+    top: 0px;
+}

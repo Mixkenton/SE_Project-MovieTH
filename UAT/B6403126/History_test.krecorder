@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>History_test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CreateHistory Success</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/moviedetailpage?ID=1<datalist><option>http://localhost:3000/moviedetailpage?ID=1</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='นักแสดงนำ:'])[1]/following::*[name()='svg'][1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='นักแสดงนำ:'])[1]/following::*[name()='svg'][1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผู้กำกับ:'])[1]/following::*[name()='svg'][1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='การรีวิว'])[1]/preceding::*[name()='svg'][5]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='หมวดหมู่การรีวิว'])[1]/preceding::*[name()='svg'][5]</option><option>css=span.anticon.anticon-play-circle.ant-tooltip-open > svg</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:3000/playMovie?ID=1<datalist><option>http://localhost:3000/playMovie?ID=1</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">DeleteHistory_Success</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/account<datalist><option>http://localhost:3000/account</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[3]/div[3]/div/a/button/span<datalist><option>xpath=//div[@id='root']/div/div/div/div[3]/div[3]/div/a/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='การดาวน์โหลด'])[1]/preceding::span[1]</option><option>xpath=//div[3]/div/a/button/span</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:3000/moviehistorypage<datalist><option>http://localhost:3000/moviehistorypage</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div[2]/div[2]/div[2]/button/span<datalist><option>xpath=//div[@id='root']/div/div/div[2]/div[2]/div[2]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ดูเมื่อ: 08/02/2024, 5:19:22 am'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='The Hunger Games: The Ballad of Songbirds & Snakes'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='ลบ']/parent::*</option><option>xpath=//button/span</option><option>css=button.ant-btn.css-dev-only-do-not-override-i1mju1.ant-btn-default.ant-btn-dangerous > span</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

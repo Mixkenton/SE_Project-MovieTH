@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>B6418748_Package_test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">selectPackage</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/package<datalist><option>http://localhost:3000/package</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[3]/div[2]/p<datalist><option>xpath=//div[@id='root']/div/div/div/div[3]/div[2]/p</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='มาตรฐาน'])[1]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='พรีเมียม'])[1]/preceding::p[3]</option><option>xpath=//div[3]/div[2]/p</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[6]/button/span<datalist><option>xpath=//div[@id='root']/div/div/div/div[6]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='titile'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='msg'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='ถัดไป']/parent::*</option><option>xpath=//div[6]/button/span</option><option>css=div.button-next > button.ant-btn.css-dev-only-do-not-override-game6n.ant-btn-default > span</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">changePackage</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/account<datalist><option>http://localhost:3000/account</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[2]/div[3]/div/button/span<datalist><option>xpath=//div[@id='root']/div/div/div/div[2]/div[3]/div/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subscription'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ประวัติ'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='เปลี่ยนแพ็คเกจ']/parent::*</option><option>xpath=//div[2]/div[3]/div/button/span</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เมื่อเปลี่ยนแล้วจะต้องจ่ายค่าสมัครใหม่อีกครั้ง'])[1]/following::span[2]</option><option>xpath=//*/text()[normalize-space(.)='OK']/parent::*</option><option>xpath=//button[2]/span</option><option>css=button.ant-btn.css-dev-only-do-not-override-i1mju1.ant-btn-primary > span</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>http://localhost:3000/package<datalist><option>http://localhost:3000/package</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[3]/div[2]/p<datalist><option>xpath=//div[@id='root']/div/div/div/div[3]/div[2]/p</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='มาตรฐาน'])[1]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='พรีเมียม'])[1]/preceding::p[3]</option><option>xpath=//div[3]/div[2]/p</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[6]/button/span<datalist><option>xpath=//div[@id='root']/div/div/div/div[6]/button/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ยกเลิก'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='titile'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='msg'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='ถัดไป']/parent::*</option><option>xpath=//div[6]/button/span</option><option>css=div.button-next > button.ant-btn.css-dev-only-do-not-override-game6n.ant-btn-default > span</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">CancelPackage</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:3000/account<datalist><option>http://localhost:3000/account</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='root']/div/div/div/div[2]/div[5]/div/button<datalist><option>xpath=//div[@id='root']/div/div/div/div[2]/div[5]/div/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ประวัติ'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/preceding::button[1]</option><option>xpath=//div[2]/div[5]/div/button</option><option>css=button.ant-btn.css-dev-only-do-not-override-game6n.ant-btn-default</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='เมื่อยกเลิกแล้วจะไม่สามารถใช้งานเว็ปต่อได้'])[1]/following::button[2]</option><option>xpath=//div[2]/button[2]</option><option>css=button.ant-btn.css-dev-only-do-not-override-i1mju1.ant-btn-primary</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Stop'])[1]/following::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Katalon Recorder is recording ...'])[1]/following::span[2]</option><option>xpath=//*/text()[normalize-space(.)='ยกเลิกสำเร็จ']/parent::*</option><option>xpath=//div/span[2]</option></datalist></td><td>ยกเลิกสำเร็จ</td></tr>
+</tbody></table>
+</body>
+</html>
